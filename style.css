@@ -1,8 +1,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 *{
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
   outline: none;
   border: none;
   text-decoration: none;
@@ -105,12 +105,12 @@ a:hover i{
   width: 100%;
 }
 .users .card{
-  width: 25%;
-  margin: 10px;
+  width: 235px;
+  margin: 8px;
   background: #fff;
-  text-align: center;
+  text-align:center;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 .users .card img{
@@ -123,11 +123,11 @@ a:hover i{
 }
 .users .card p{
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 .users table{
-  margin:  auto;
+  margin:auto;
 }
 .users .per span{
   padding: 5px;
@@ -136,21 +136,23 @@ a:hover i{
 }
 .users td{
   font-size: 14px;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 .users .card button{
-  width: 100%;
-  margin-top: 8px;
-  padding: 7px;
+  width: 100px;
+  margin-top: 2px;
+  padding: 3px;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 2px;
+  border-left-style: groove;
   background: transparent;
-  border: 1px solid #4AD489;
+  border: 1px solid #2e11c0;
 }
 .users .card button:hover{
   background: #4AD489;
   color: #fff;
   transition: 0.5s;
+  position:relative;
 }
 
 /*Attendance List serction  */
